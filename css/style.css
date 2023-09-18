@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../media/interior-agenda-2021-diaria-con-horarios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal {
+	background: #d92adf;
+	border-top: 20px solid #722768b4;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #000000;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #D32F2F;
+	color: rgb(195, 0, 255);
+}
+
+.principal .formulario .boton {
+	background: none;
+	border: 1px solid #722768b4;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+    background-color: #000000;
+}
+
+.tareas .lista li a {
+	color: #ffffff;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+    font-family: cursive;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
